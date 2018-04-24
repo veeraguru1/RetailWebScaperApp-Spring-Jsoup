@@ -1,0 +1,4 @@
+com/veera/RetailWebScrapApplicationTest.class
+com/veera/scraper/util/RetailWebScrapUtilTest.class
+com/veera/services/RetailWebScrapServicesTest.class
+com/veera/controller/RetailWebScrapeControllerTest.class

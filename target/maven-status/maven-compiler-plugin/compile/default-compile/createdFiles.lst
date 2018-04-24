@@ -1,0 +1,10 @@
+com/veera/model/GroceriesProduct.class
+com/veera/util/RetailWebScrapUtil.class
+com/veera/RetailWebScrapApplication.class
+com/veera/util/Endpoint.class
+com/veera/controller/RetailWebScrapeController.class
+com/veera/RetailWebScrapApplicationConfig.class
+com/veera/model/GroceriesProduct$Builder.class
+com/veera/services/RetailWebScrapServices.class
+com/veera/Exception/RetailWebScraperException.class
+com/veera/model/GroceriesProductList.class

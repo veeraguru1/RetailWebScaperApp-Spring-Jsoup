@@ -14,23 +14,51 @@ Go to your project directory. For example:
 cd RetailWebScaperApp-Spring-Jsoup
 ```
  
+## 2. Build the project
 
-## 2. Run Tests from intelligi.
+Use following command to build the project
 
+```
+mvn clean install
+```
+## 2. Run Tests  or console .
+
+console:
+
+Use following command to run the tests
+
+```
+mvn test
+
+```
+intelligi:
+
+```
 1) Run All test case from com.veera package
 2) Right click the open com.veera and run 'Tests in 'com.veera''
+```
 
-## 3. Run the application from intelligi
+## 3. Run the application
 
+console:
+
+Use following command to run the project using command line:
+```
+java -jar target/RetailWebScrapApplication-0.0.1-SNAPSHOT.jar
+```
+
+intelligi:
+
+```
 1) import RetailWebScaperApp-Spring-Jsoup folder into intelliJ
 2) Run RetailWebScrapApplication class from intelliJ - com.veera/RetailWebScrapApplication main class
-
+```
 
 Result:
 
+```
 Below are the warning due to Java 9 and Spring library.
 
-```
 WARNING: An illegal reflective access operation has occurred
 WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/Users/veeraguru.s/.m2/repository/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
 WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
@@ -101,5 +129,5 @@ WARNING: All illegal access operations will be denied in a future release
   "total" : 24.90
 }
 
-Process finished with exit code 0
 ```
+
