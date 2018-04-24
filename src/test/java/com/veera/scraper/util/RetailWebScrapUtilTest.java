@@ -16,7 +16,7 @@ public class RetailWebScrapUtilTest {
 
     @Test
     public void decodeUrl() {
-        System.out.println(RetailWebScrapUtil.decodeUrl(encodedUrl));
+
         assertEquals(decodedUrl, RetailWebScrapUtil.decodeUrl(encodedUrl));
     }
 

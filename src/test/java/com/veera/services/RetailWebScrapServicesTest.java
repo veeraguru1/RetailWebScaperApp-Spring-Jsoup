@@ -33,7 +33,7 @@ public class RetailWebScrapServicesTest {
     public void testSingleGroceriesProduct()  {
         final GroceriesProduct product = retailWebScrapServices.getGroceriesProduct(productUrl);
 
-        //System.out.println(product.getSize());
+
 
         assertEquals("Sainsbury's Avocado, Ripe & Ready x2", product.getTitle());
         assertEquals("52kb", product.getSize());

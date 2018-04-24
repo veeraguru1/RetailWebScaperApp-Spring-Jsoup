@@ -54,8 +54,7 @@ public class RetailWebScrapeControllerTest {
 
         verify(retailWebScrapServices, times(2)).getGroceriesProduct(anyString());
 
-        System.out.println(product.getUnitPrice()+" "+ productList.getProducts().get(0).getUnitPrice());
-        System.out.println(product.getUnitPrice()+" "+ productList.getProducts().get(1).getUnitPrice());
+
         assertEquals(product.getTitle(), productList.getProducts().get(0).getTitle());
         assertEquals(product.getDescription(), productList.getProducts().get(0).getDescription());
         assertEquals(product.getSize(), productList.getProducts().get(0).getSize());
