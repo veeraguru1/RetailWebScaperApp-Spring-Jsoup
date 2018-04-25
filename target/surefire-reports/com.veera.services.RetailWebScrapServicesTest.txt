@@ -1,4 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: com.veera.services.RetailWebScrapServicesTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.437 sec - in com.veera.services.RetailWebScrapServicesTest
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.811 sec <<< FAILURE! - in com.veera.services.RetailWebScrapServicesTest
+testGroceriesProductsCount(com.veera.services.RetailWebScrapServicesTest)  Time elapsed: 1.807 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<10>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.veera.services.RetailWebScrapServicesTest.testGroceriesProductsCount(RetailWebScrapServicesTest.java:29)
+
+testSingleGroceriesProduct(com.veera.services.RetailWebScrapServicesTest)  Time elapsed: 0.999 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<5[2]kb> but was:<5[3]kb>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.veera.services.RetailWebScrapServicesTest.testSingleGroceriesProduct(RetailWebScrapServicesTest.java:39)
+

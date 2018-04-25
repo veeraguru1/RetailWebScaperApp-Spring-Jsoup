@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.veera.services.RetailWebScrapServicesTest" time="1.432" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="com.veera.services.RetailWebScrapServicesTest" time="2.806" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.1+11"/>
@@ -60,6 +60,20 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase name="testCalculateTotalUnitPrice" classname="com.veera.services.RetailWebScrapServicesTest" time="0"/>
-  <testcase name="testGroceriesProductsCount" classname="com.veera.services.RetailWebScrapServicesTest" time="1.106"/>
-  <testcase name="testSingleGroceriesProduct" classname="com.veera.services.RetailWebScrapServicesTest" time="0.326"/>
+  <testcase name="testGroceriesProductsCount" classname="com.veera.services.RetailWebScrapServicesTest" time="1.807">
+    <failure message="expected:&lt;12&gt; but was:&lt;10&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<12> but was:<10>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at com.veera.services.RetailWebScrapServicesTest.testGroceriesProductsCount(RetailWebScrapServicesTest.java:29)
+]]></failure>
+  </testcase>
+  <testcase name="testSingleGroceriesProduct" classname="com.veera.services.RetailWebScrapServicesTest" time="0.999">
+    <failure message="expected:&lt;5[2]kb&gt; but was:&lt;5[3]kb&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<5[2]kb> but was:<5[3]kb>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.veera.services.RetailWebScrapServicesTest.testSingleGroceriesProduct(RetailWebScrapServicesTest.java:39)
+]]></failure>
+  </testcase>
 </testsuite>

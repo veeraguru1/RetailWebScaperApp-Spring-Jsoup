@@ -1,4 +1,4 @@
-package com.veera.scraper.util;
+package com.veera.util;
 
 import com.veera.util.RetailWebScrapUtil;
 import org.junit.Test;

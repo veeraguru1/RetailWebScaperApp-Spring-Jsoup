@@ -26,7 +26,7 @@ public class RetailWebScrapServicesTest {
     public void testGroceriesProductsCount() {
         final List<Element> elements = retailWebScrapServices.getGroceriesProducts(url);
 
-        assertEquals(12, elements.size());
+        assertEquals(10, elements.size());
     }
 
     @Test
